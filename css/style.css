@@ -1,0 +1,1183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* ==========FOR ALL========== */
+a {
+
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1rem;
+}
+
+    /* ===BTN SECTION=== */
+.btn {
+    margin-top: 9px;
+    width: 9rem;
+    height: 3rem;
+    background: transparent;
+    color: black;
+    font-size: 1rem;
+    padding: 3px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #5DAA68;
+}
+
+/* ==============NAVBAR SECTION===============  */
+/* ==============STARTS HERE===============  */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    position: absolute;
+    z-index: 99999;
+}
+
+    /* ===PAGE LOGO AND LOGO NAME SECTION=== */
+#left-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-img {
+    width: 50px;
+    height: 50px;
+}
+
+#logo-name {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+    /* ===CENTER NAVBAR SECTION=== */
+#center-navbar-lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+    /* ===RIGHT NAVBAR SECTION=== */
+#right-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+#right-navbar ion-icon {
+    width: 40px;
+    height: 40px;
+    color: #000000;
+}
+
+#mobile-btn {
+    display: none;
+}
+
+#mobile-btn ion-icon[name="close"] {
+    display: none;
+}
+
+
+/* ==============HERO SECTION===============  */
+/* ==============STARTS HERE===============  */
+#home {
+    width: 100%;
+    height: 100vh;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    padding: 9rem;
+}
+
+.box .box-content {
+    color: #000000;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.box-content span {
+    font-size: 2rem;
+    color: #5DAA68;
+}
+
+.box-content h1 {
+    font-size: 3.5rem;
+    color: green;
+}
+
+.second {
+    justify-content: flex-start;     /*===SECOND HOME PAGE===*/ 
+}
+
+    /* ===SWIPER ARROW BTN=== */
+.swiper-btn {
+    width: 55px;
+    height: 55px;
+    border: 2px solid black;
+    padding: 15px;
+    color: black;
+}
+
+.swiper-btn::after {
+    font-size: 2rem;
+}
+
+.swiper-btn:hover {
+    background: #5DAA68;
+}
+
+/* ==============CATEGORY SECTION===============  */
+/* ==============STARTS HERE===============  */
+#category {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 9rem 9rem 5rem;
+}
+
+#category-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.category-lists {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    padding-top: 15px;
+    border: 3px solid black;
+}
+
+.category-lists:hover{
+    background-color: green;
+}
+
+.category-lists img {
+    width: 55%;
+    height: 55%;
+    border-radius: 100%;
+}
+
+.category-lists span {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #5DAA68;
+}
+
+.category-lists .btn {
+    border-style: none;
+    border-top: 3px solid #000000;
+    width: 100%;
+    border-radius: 0;
+}
+
+/* ==============ABOUT-US SECTION===============  */
+/* ==============STARTS HERE===============  */
+#about-us {
+    background: #eceef7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+    padding: 5rem 3rem;
+}
+
+#about-us img {
+    width: 35rem;
+    height: 30rem;
+    border-radius: 9px;
+    box-shadow: 2.7rem 2.7rem 0 rgb(0 0 0 / 10%);
+}
+
+#about-us-content {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+#about-us-content .btn {
+    width: 100%;
+    background: green;
+}
+
+#about-us-content .btn:hover {
+    background-color: #5DAA68;
+}
+
+/* ==============SHOP SECTION===============  */
+/* ==============STARTS HERE===============  */
+#shop {
+    width: 100%;
+    padding: 3rem 9rem;
+    text-align: center;
+}
+
+.mySwiper {
+    width: 100%;
+}
+
+.shop-slider {
+    width: 35%;
+    border: 3px solid #000000;
+    margin-top: 3rem;
+}
+
+.shop-slider:hover .slider-icons {
+    position: relative;
+    z-index: 99999;
+}
+
+.slider-img {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-img img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 99999;
+    border-bottom: 3px solid #000000;
+}
+
+.slider-img .slider-icons {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-3rem);
+    transition: all 0.3s linear;
+
+}
+
+.slider-img .slider-icons ion-icon {
+    width: 40px;
+    height: 35px;
+    background-color: #000000;
+    color: rgb(229, 224, 224);
+    margin-right: 9px;
+}
+
+.slider-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-content h3 {
+    color: green;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.slider-content .price {
+    font-size: 1.3rem;
+}
+
+
+.slider-content div {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-content ion-icon {
+    width: 20px;
+    height: 20px;
+    color: green;
+    margin-bottom: 15px;
+}
+
+.shop-swiper-btn {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    padding: 15px;
+    color: black;
+}
+
+.shop-swiper-btn::after {
+    font-size: 1.5rem;
+}
+
+.shop-swiper-btn:hover {
+    background-color: green;
+}
+
+/* ==============PACKAGES SECTION===============  */
+/* ==============STARTS HERE===============  */
+#packages {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 9rem;
+}
+
+#packages-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.packages-items {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    padding: 12px;
+    margin-bottom: 2rem;
+}
+
+.packages-img img {
+    width: 100%;
+    height: 20rem;
+    padding-bottom: 12px;
+    border-bottom: 3px solid black;
+}
+
+.packages-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.packages-content h3 {
+    font-size: 1.5rem;
+    color: green;
+}
+
+.packages-content .price {
+    color: green;
+}
+
+.packages-content .btn {
+    width: 100%;
+    background-color: #5DAA68;
+}
+
+.packages-content .price {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.packages-content .btn:hover {
+    background-color: green;
+}
+
+/* ==============SERVICES SECTION===============  */
+/* ==============STARTS HERE===============  */
+#services {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#services-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 9rem;
+}
+
+.services-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    gap: 2rem;
+    border: 3px solid black;
+    text-align: center;
+    margin: 3rem 0;
+    padding: 1rem;
+}
+
+.services-items:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.services-items:hover img {
+    filter: invert(1);
+}
+
+.services-items:hover .btn {
+    color: white;
+    border-color: white;
+}
+
+.services-items img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.services-items h3 {
+    font-size: 1.5rem;
+    color: green;
+}
+
+.services-items .btn {
+    width: 100%;
+}
+
+.services-items .btn:hover {
+    background-color: green;
+    border-style: none;
+}
+
+/* ==============REVIEWS SECTION===============  */
+/* ==============STARTS HERE===============  */
+#reviews {
+    width: 100%;
+    padding: 3rem 5rem;
+    text-align: center;
+}
+
+
+.reviews-slider {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2.9rem;
+}
+
+.reviews-slider p {
+    color: rgb(224, 220, 220);
+    font-style: italic;
+    background-color: #5DAA68;
+    padding: 30px;
+    width: 100%;
+    border-radius: 9px;
+    position: relative;
+    z-index: 0;
+    text-align: left;
+}
+
+.reviews-slider p::before {
+    content: "";
+    background-color: #5DAA68;
+    position: absolute;
+    bottom: -0.5rem;
+    left: 11px;
+    width: 2rem;
+    height: 2rem;
+    transform: rotate(45deg);
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    margin-top: 1rem;
+}
+
+.user img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 5px solid green;
+}
+
+.client-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.client-contents h3 {
+    color: green;
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+
+/* ==============BLOG SECTION===============  */
+/* ==============STARTS HERE===============  */
+#blog {
+    width: 100%;
+    text-align: center;
+    padding: 3rem 7rem;
+}
+
+.blog-swiper {
+    width: 100%;
+    margin-top: 9px;
+}
+
+.blog-slider {
+    width: 20%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+}
+
+.blog-slider img {
+    width: 100%;
+    height: 20rem;
+}
+
+.date-time {
+    width: auto;
+    height: auto;
+    background-color: black;
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    position: relative;
+    top: -1rem;
+}
+
+.date-time a {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.blog-slider h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.blog-slider p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.blog-slider .btn {
+    width: 100%;
+    background-color: green;
+}
+
+.blog-slider .btn:hover {
+    background-color: #5DAA68;
+}
+
+/* ==============NEWSPAPER SECTION===============  */
+/* ==============STARTS HERE===============  */
+#newspaper {
+    width: 100%;
+    padding: 3rem 9rem;
+    display: flex;
+    justify-content: center;
+    background-color: #eceef7;
+}
+
+#newspaper-content {
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    position: relative;
+}
+
+.newspaper-form-content {
+    width: 100%;
+    display: flex;
+    padding: .7rem;
+}
+
+.newspaper-form-content .email {
+    width: 100%;
+    height: 65px;
+    border: 2px solid black;
+    border-radius: 9rem;
+    padding-left: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.newspaper-form-content .btn {
+    position: absolute;
+    right: 1.5rem;
+    bottom: 1.2rem;
+    border-radius: 9rem;
+}
+
+/* ==============FOOTER SECTION===============  */
+/* ==============STARTS HERE===============  */
+#footer {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(1, 2, 3, 0.5)), url(../images/footer-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    padding: 3rem 9rem 1rem;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 9rem;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+}
+
+.footer-items a {
+    color: white;
+
+}
+
+.footer-items a ion-icon {
+    color: green;
+}
+
+#footer h3 {
+    color: green;
+    margin-top: 3rem;
+}
+
+#footer h4 {
+    color: white;
+    margin-top: 3rem;
+}
+
+#footer h4 span {
+    color: green;
+}
+
+/* ==================MOBILE-PHONE======================= */
+/* ===================STARTS HERE====================== */
+/* ====================MOBILE.CSS======================= */
+
+/* ====1200=== */
+@media(max-width:1200px) {
+    header {
+        overflow-x: hidden;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+        margin-left: 1rem;
+    }
+
+    #logo-name {
+        font-size: 2rem;
+    }
+
+    #center-navbar-lists {
+        gap: 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    /* <!-- =================HERO-SECTION============= --> */
+    /* <!-- =================STARTS HERE============== --> */
+
+    .box-content span {
+        font-size: 1rem;
+        ;
+    }
+
+    .box-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .box-content p {
+        font-size: 0.9rem;
+    }
+
+    .swiper-btn {
+        display: none;
+    }
+
+    /*  ==================HERE STARTS===================  */
+    /* ==================CATEGORY SECTION===================  */
+    #category {
+        padding: 3rem 1rem;
+    }
+
+    #category-items {
+        flex-wrap: wrap;
+    }
+
+    /* ==============ABOUT SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #about-us {
+        padding: 3rem 1rem;
+    }
+
+    #about-us img {
+        width: 26rem;
+        height: 25rem;
+    }
+
+    #about-us-content {
+        width: 50%;
+    }
+
+    #about-us-content h1 {
+        font-size: 1.7rem;
+    }
+
+    #about-us-content p {
+        font-size: 0.9rem;
+    }
+
+    /* ==============SHOP SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #shop {
+        padding: 3rem 1rem;
+    }
+
+    /* ==============PACKAGES SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #packages {
+        padding: 3rem 1rem;
+    }
+
+    /* ==============SERVICES SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #services-box {
+        padding: 1rem;
+    }
+
+    /* ==============REVIEWS SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #reviews {
+        padding: 1rem;
+    }
+
+    /* ==============BLOG SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #blog {
+        padding: 1rem;
+    }
+
+    /* ==============FOOTER SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #footer {
+        padding: 1rem;
+    }
+}
+/* ===992=== */
+@media(max-width:992px) {
+
+    /* ==============NAVBAR SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    header {
+        overflow-x: hidden;
+        height: 100vh;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        gap: 1rem;
+    }
+
+    #mobile-btn {
+        display: block;
+    }
+
+    #center-navbar {
+        width: 25rem;
+        height: 100vh;
+        background-color: #5DAA68;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: absolute;
+        z-index: 10000;
+        top: 0;
+        left: 0;
+        box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+        transition: all 0.5s linear;
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+    #center-navbar-lists {
+        flex-direction: column;
+    }
+
+    .center-navbar-items {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
+    .active #center-navbar {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .active #mobile-btn ion-icon[name="close"] {
+        display: block;
+        color: darkgreen;
+        position: absolute;
+        left: 3%;
+        top: 15px;
+        z-index: 111111;
+    }
+
+    .active #mobile-btn ion-icon[name="menu"] {
+        display: none;
+    }
+
+    /* ==============SERVICES SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #about-us{
+        flex-direction: column;
+    }
+    #about-us img{
+        width: 27rem;
+        height: 26rem;
+    }
+    #about-us-content{
+        width: 80%;
+    } 
+
+    /* ==============SERVICES SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    .services-items {
+        width: 45%;
+    }
+
+    /* ==============PACKAGES SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    .packages-items {
+        width: 45%;
+    }
+
+    .packages-img img {
+        height: 16rem;
+    }
+
+    /* ==============SERVICES SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #newspaper {
+        padding: 5rem 1rem;
+    }
+
+    #newspaper-content {
+        width: 60%;
+    }
+
+    /* ==============SERVICES SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #footer-container {
+        gap: 3rem;
+    }
+}
+
+/* ===768=== */
+@media(max-width:768px) {
+    /* ==============HEADER SECTION============== */
+    /* ===============STARTS HERE================= */
+    #logo-name {
+        font-size: 1.5rem;
+    }
+
+    /* ==============HERO SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    .box {
+        background-position: right !important;
+    }
+    .second{
+        background-position: left !important;
+    }
+    .box .box-content{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* ==============CATEGORY SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    .category-lists{
+        width: 45%;
+    }
+
+    /* ==============SERVICES SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    .services-items {
+        width: 49%;
+        padding: 0;
+    }
+    .services-items .btn{
+        border-radius: 0;
+        border-style: none;
+        border-top: 3px solid black;
+    }
+
+    /* ==============NEWSPAPER SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #newspaper-content{
+        width: 90%;
+    }
+    .newspaper-form-content{
+        width: 98%;
+    }
+    .newspaper-form-content .email{
+        height: 63px;
+    }
+    /* ==============FOOTER SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #footer{
+        padding: 0;
+    }
+    #footer-container{
+        gap: 2rem;
+    }
+}
+
+/* ===576=== */
+@media(max-width:576px){
+    /* ==============HEADER SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    header{
+        align-items: flex-start;
+        padding-top: 5px;
+    }
+    #right-navbar{        
+        flex-direction: column;
+        gap: 0;
+    }
+    #right-navbar ion-icon::after{
+        width: 35px;
+        height: 35px;
+    }
+
+    /* ==============HERO SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    .box{
+        padding: 0;
+    }
+    .box .box-content{
+        margin-top: 9px;
+        padding: 1rem;
+    }
+    .box-content span {
+        font-size: 0.9rem;
+    }
+    .box-content h1 {
+        font-size: 1.5rem;
+    }
+    .box-content p {
+        font-size: 11px;
+    }
+    .box-content .btn{    
+        width: 6rem;
+        height: 2rem;
+        font-size: 12px;
+    }
+
+    /* ==============CATEGORY SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #category {
+        padding: 3rem 11px;
+        gap: 3rem;
+    }
+    #category h1{
+        font-size: 2rem;
+    }
+    .category-lists {
+        width: 100%;
+    }
+
+    /* ==============ABOUT-US SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #about-us-content {
+        width: 100%;
+    }
+    #about-us img {
+        width: 14rem;
+        height: 13rem;
+    }
+    #about-us-content h1 {
+        font-size: 16px;
+    }
+    #about-us-content p {
+        font-size: 13px;
+    }
+
+    /* ==============SHOP SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #shop {
+        padding: 3rem 9px;
+    }
+    #shop h1{
+        font-size: 1.9rem;
+        font-weight: 500;
+    }
+
+    /* ==============PACKAGES SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #packages {
+        padding: 3rem 9px;
+    }
+    #packages h1{
+        font-size: 1.9rem;
+    }
+    .packages-items {
+        width: 100%;
+    }
+
+    #services h1{
+        font-size: 2rem;
+    }
+    .services-items {
+        width: 100%;
+        margin: 1rem;
+    }
+
+    /* ==============REVIEW SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #reviews h1{
+        font-size: 2rem;
+        margin-bottom: 15px
+    }
+    .reviews-slider{
+        padding: 0;
+    }
+    .reviews-swiper .shop-swiper-btn{
+        display: none;
+    }
+
+    /* ==============BLOG SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #blog h1{
+        font-size: 2rem;
+    }
+    .blog-slider img {
+        height: 15rem;
+    }
+
+    /* ==============NEWSPAPER SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #newspaper-content h1{
+        font-size: 2rem;
+    }
+    .newspaper-form-content {
+        width: 100%;
+    }
+    .newspaper-form-content .email {
+        height: 53.2px;
+        width: 100%;
+        border-radius: 9px;
+        font-size: 0.8rem;
+    }
+    .newspaper-form-content .btn {
+        right: 1.3rem;
+        bottom: 1.3rem;
+        border-radius: 9px;
+        width: 5rem;
+        height: 2rem;
+        font-size: 0.7rem;
+    }
+
+    /* ==============FOOTER SECTION===============  */
+    /* ==============STARTS HERE===============  */
+    #footer-container{
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+    .footer-items h3{
+        margin-top: 1rem;
+    }
+    #footer h4{
+        font-size: 0.8rem;
+    }
+
+}
